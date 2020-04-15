@@ -1,0 +1,126 @@
+body {
+    /* background-color:transparent; */
+    background-image: url("/images/back.png");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 25%;
+}
+.container {
+    width: 800px;
+    margin-top: 100px;
+    margin-left: calc( 50% - 400px );
+    
+}
+    .left {
+        position: relative;
+        float: left;
+        top: 1vh;
+        width: 40%;
+        height: 58vh;
+        float: left;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        text-align: center;
+        background-image: url('/images/man.png');
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 25%;
+    }
+        .left > h1 {
+            position: relative;
+            padding: 2px;
+            color: #fff;
+           
+        }
+        .left > .links {
+            margin-top: 42vh;
+        }
+        .left > .links > a {
+            
+            
+        }
+        .left > .links > span {
+            
+        }
+
+    .right {
+        position: relative;
+        height: 60vh;
+        width: 60%;
+        float: left;
+        padding: 5vh 5vw;
+        background-color: #fff;
+    }
+
+    .right > .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5vw;
+        line-height: 60px;
+        text-align: center;
+        font-size: 30px;
+    } 
+
+
+    form {
+        width: 100%;
+    }
+
+    form > .form-row {
+        position: relative;
+        width: 100%;
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    form > .form-row:last-child {
+        margin-bottom: 0;
+    }
+
+    form > .form-row > label {
+        position: relative;
+        width: 100%;
+        color: gray;
+        font-size: 15px;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    form > .form-row > input {
+        position: relative;
+        width: 100%;
+        font-size: 22px;
+        line-height: 40px;
+        border: none;
+        border-bottom: 2px solid #ccc;
+    }
+
+    form > .form-row > input:focus{
+        outline: none;
+    }
+
+    form > .form-row > .btn {
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color:#0055D4;
+        color: white;
+        font-size: 20px;
+        line-height: 40px;
+        border-radius: 20px;
+    }
+
+    form > .form-row > span {
+        line-height: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    form > .form-row a {
+        color: #36f;
+        text-decoration: none;
+        line-height: 40px;
+    }
+
+
+
